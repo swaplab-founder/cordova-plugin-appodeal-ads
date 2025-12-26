@@ -47,11 +47,19 @@
       <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" tools:node="remove" />
     </config-file>
 
-  <config-file parent="/manifest/application" target="AndroidManifest.xml">
-      <property android:name="android.adservices.AD_SERVICES_CONFIG"
-        android:resource="@xml/gma_ad_services_config" tools:replace="android:resource" />
-      <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="$APP_ID_ANDROID" />
-    </config-file>
+
+	  <edit-config
+    file="AndroidManifest.xml"
+    target="/manifest/application/property[@android:name='android.adservices.AD_SERVICES_CONFIG']"
+    mode="merge">
+    <property
+        android:name="android.adservices.AD_SERVICES_CONFIG"
+        android:resource="@xml/gma_ad_services_config"
+        tools:replace="android:resource" />
+</edit-config>
+
+
+
 
     <framework custom="true" src="src/android/appodeal-sdk-networks.gradle" type="gradleReference" />
 
