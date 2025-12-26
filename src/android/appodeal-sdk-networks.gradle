@@ -1,0 +1,8 @@
+repositories {
+    maven { url "https://artifactory.appodeal.com/appodeal" }
+}
+
+dependencies {
+    implementation("com.google.android.gms:play-services-ads-lite:23.5.0")
+    implementation("com.appodeal.ads:sdk:3.4.1.0") 
+}

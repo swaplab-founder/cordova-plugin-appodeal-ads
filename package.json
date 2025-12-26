@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-appodeal-ads",
+  "version": "0.0.3",
+  "description": "cordova plugin IOS Android The Appodeal SDK Full Package",
+  "cordova": {
+    "id": "cordova-plugin-appodeal-ads",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMI-INDO?tab=repositories.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-plugin-appodeal-ads",
+    "cordova-plugin-appodeal",
+    "appodeal-ads",
+    "construct3",
+    "construct3-plugin",
+    "construct3-addon"
+  ],
+  "author": "EMI INDO",
+  "license": "ISC",
+  "emial": "cordova.c3addon@gmail.com",
+  "bugs": {
+    "url": "https://github.com/EMI-INDO?tab=repositories"
+  },
+  "homepage": "https://github.com/EMI-INDO?tab=repositories"
+}
