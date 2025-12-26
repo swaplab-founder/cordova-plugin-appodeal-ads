@@ -56,9 +56,12 @@
     <framework custom="true" src="src/android/appodeal-sdk-networks.gradle" type="gradleReference" />
 
 
-    <config-file target="app/src/main/res/values/strings.xml" parent="resources">
-        <string name="facebook_app_id">$FB_APP_ID</string>
-      </config-file>
+    
+
+	  <config-file target="app/src/main/res/values/strings.xml" parent="/resources">
+    <string name="facebook_app_id">$FB_APP_ID</string>
+</config-file>
+
   
   
       <config-file target="app/src/main/AndroidManifest.xml" parent="/manifest/application">
